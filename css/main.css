@@ -1086,8 +1086,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 header {
 	position: fixed;
 	width: 100%;
-	min-height: 66px;
-	z-index: 600;
+	height: 100px;
+	z-index: 12;
+	background:#000000;
 }
 header .row {
 	position: relative;
@@ -1107,10 +1108,10 @@ header .logo {
 }
 header .logo a {
 	text-decoration: none;
-	font-size:1.8rem;
+	font-size:30px;
 	font-family:poppins-bold;
 	color: #FFFFFF;
-	letter-spacing:.25rem;
+	letter-spacing:5px;
 }
 header .nav{
 	float:right;
@@ -1119,10 +1120,10 @@ header .nav{
 
 header .nav a {
 	text-decoration: none;
-	font-size:1.5rem;
+	font-size:20px;
 	font-family:poppins-bold;
 	color: #FFFFFF ;
-	letter-spacing:.20rem;
+	letter-spacing:20px;
 	margin: 0 10px
 }
 

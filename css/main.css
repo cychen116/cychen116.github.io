@@ -131,21 +131,21 @@ h2, .h02 {
 }
 h3, .h03 {
 	font-size: 2rem;
-	line-height: 1.5;
+	line-height: 1.7;
 }
 h4, .h04 {
 	font-size: 1.7rem;
-	line-height: 1.765;
+	line-height: 1.5;
 }
 h5, .h05 {
 	font-size: 1.4rem;
-	line-height: 1.714;
+	line-height: 1.5;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 }
 h6, .h06 {
 	font-size: 1.3rem;
-	line-height: 1.846;
+	line-height: 1.5;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 }
@@ -1098,9 +1098,7 @@ header .top-bar {
 	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
-	position: absolute;
-	left: 0px;
-	top: 0;
+	position: left top;
 }
 header .logo {
 	float: left;

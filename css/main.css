@@ -192,7 +192,7 @@ blockquote:before {
 	color: #313131;
 	font-family: arial, sans-serif;
 	position: absolute;
-	top: 3rem;
+		top: 3rem;
 	left: 0;
 }
 blockquote p {
@@ -1099,7 +1099,7 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0px;
 	top: 0;
 }
 header .logo {

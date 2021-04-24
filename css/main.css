@@ -94,6 +94,10 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
+.fa:hover{
+color:#FF0077;
+}
+
 /**
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
@@ -1426,27 +1430,91 @@ header .header-social li a {
  * ---------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
-	header .top-bar {
+	header .top-area {
 		left: 0px;
 	}
 }
 @media only screen and (max-width:768px) {
-	header .top-bar {
+	header .top-area {
 		left: 0px;
 	}
 }
 @media only screen and (max-width:600px) {
-	header .top-bar {
+	header .top-area {
 		left: 0px;
 	}
 }
 @media only screen and (max-width:400px) {
-	header .top-bar {
+	header .top-area {
 		left: 0px;
 	}
 }
 
 
+
+@media only screen and (max-width:1024px) {
+	header .nav {
+		left: 0px;
+		padding: 27px;
+		font-size:18px;
+
+	}
+}
+@media only screen and (max-width:768px) {
+	header .nav {
+		left: 0px;
+		padding: 15px;
+		font-size:10px;
+	}
+}
+@media only screen and (max-width:600px) {
+	header .nav {
+		left: 0px;
+		padding: 12px;
+		font-size:8px;
+	}
+}
+@media only screen and (max-width:400px) {
+	header .nav{
+		left: 0px;
+		padding: 11px;
+		font-size:7px;
+	}
+}
+
+
+@media only screen and (max-width:1024px) {
+	header .header-social {
+		left: 0px;
+		padding: 27px;
+		font-size:18px;
+		margin: 8px;
+	}
+}
+@media only screen and (max-width:768px) {
+	header .header-social {
+		left: 0px;
+		padding: 15px;
+		font-size:10px;
+		margin: 6px;
+	}
+}
+@media only screen and (max-width:600px) {
+	header .header-social {
+		left: 0px;
+		padding: 12px;
+		font-size:8px;
+		margin: 5px;
+	}
+}
+@media only screen and (max-width:400px) {
+	header .header-social{
+		left: 0px;
+		padding: 11px;
+		font-size:7px;
+		margin: 2px;
+	}
+}
 /**
  * ===================================================================
  * 10. intro - (_layout.scss)
@@ -1942,6 +2010,27 @@ header .header-social li a {
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 5.5rem;
 	}
+}
+/**
+ * ===================================================================
+ * 12.1 education - (_layout.scss)
+ *
+ * -------------------------------------------------------------------
+ */
+ /**
+  * ===================================================================
+  * 12.2 education - (_layout.scss)
+  *
+  * -------------------------------------------------------------------
+  */
+	/**
+	 * ===================================================================
+	 * 12.3 Projects - (_layout.scss)
+	 *
+	 * -------------------------------------------------------------------
+	 */
+.fa:hover{
+color:#FF0077;
 }
 
 

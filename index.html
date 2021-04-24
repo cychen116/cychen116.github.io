@@ -39,29 +39,23 @@
  	 <!-- header
   ================================================== -->
   <header>
-  	  <nav class="nav header-social">
-            <ul class="nav">
-                  <li><a href="index.html#top">HOME</a></li>
-                      <li><a class="smoothscroll" href="index.html#education" aria-haspopup="true">RESUME</a>
-                          <ul class="dropdown" aria-label="submenu">
-                              <li><a class="smoothscroll" href="index.html#education">Education</a></li>
-                              <li><a class="smoothscroll" href="index.html#work">Work</a></li>
-                              <li><a class="smoothscroll" href="index.html#projects">Projects</a></li>
-                          </ul>
-                      </li>
-                  <li><a class="smoothscroll" href="index.html#projects">PROJECTS</a></li>
-                  <li><a class="smoothscroll" href="index.html#contact">CONTACT</a></li>
-                  <li><a class="smoothscroll" href="index.html#MORE">MORE</a></li>
-            </ul>
-
-            <ul class="header-social">
-                <li><a href="http://bit.ly/cychen_medium_home"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-                <li><a href="http://bit.ly/cychen_Github"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="http://bit.ly/cychen_linkedin_web"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            </ul>
-
-      </nav>
-
+    <div class="top-area">
+    	  <nav class="nav">
+              <ul class>
+                    <li><a class="smoothscroll"href="index.html#top">HOME</a></li>
+                        <li><a class="smoothscroll" href="index.html#education" aria-haspopup="true">RESUME</a>
+                            <ul class="dropdown" aria-label="submenu">
+                                <li><a class="smoothscroll" href="index.html#education">Education</a></li>
+                                <li><a class="smoothscroll" href="index.html#work">Work</a></li>
+                                <li><a class="smoothscroll" href="index.html#projects">Projects</a></li>
+                                <li><a class="smoothscroll" href="index.html#MORE">More</a></li>
+                            </ul>
+                        </li>
+                    <li><a class="smoothscroll" href="index.html#portfolio">POTFOLIO</a></li>
+                    <li><a class="smoothscroll" href="index.html#contact">CONTACT</a></li>
+              </ul>
+        </nav>
+    </div>
   </header> <!-- /header -->
 
   	<!-- intro section
@@ -144,8 +138,12 @@
    				</li>
 
    				<li>
-   					<strong>Phone:</strong>
-   					<span> +1 000 000 0000</span>
+   					<strong>Social Network:</strong>
+   					<span>
+            <a target="_blank"href="http://bit.ly/cychen_medium_home"> <i class="fa fa-medium" style= "color:black"></i></a>
+            <a target="_blank"href="http://bit.ly/cychen_Github"> <i class="fa fa-github" style= "color:black"></i></a>
+            <a target="_blank"href="http://bit.ly/cychen_linkedin_web"><i class="fa fa-linkedin" style= "color:black"></i></a>
+          </span>
    				</li>
 
 
@@ -266,7 +264,7 @@
 
  <!-- resume Section-work
    ================================================== -->
-	<section id="work" class="grey-section">
+	<section id="work" class="white-section">
 
    	<div class="row resume-timeline">
 
@@ -356,11 +354,9 @@
 
 	</section> <!-- /work -->
 
-  <!-- Portfolio Section
+ <!-- resume-rojects Section
    ================================================== -->
- <!-- Projects Section
-   ================================================== -->
-	<section id="projects" class="white-section">
+	<section id="projects" class="grey-section">
 
    	<div class="row resume-timeline">
 
@@ -399,8 +395,8 @@
 	   				<div class="timeline-header">
               					<h3>Data Analysis on US Foodborne Outbreak Incident in 1998–2018 in Python </h3><h4> Washington DC, US | Dec 2020 </h4>
 	   					<p>Project Links
-                 <a target="_blank" href="http://bit.ly/cyc_medium_food"> <i class="fa fa-medium" style= "color:black"></i></a>
-                 <a target="_blank" href="http://bit.ly/sagemaker_FoodOutBreak"> <i class="fa fa-amazon" style= "color:black"></i></a>
+                 <a href="bit.ly/cyc_medium_food"> <i class="fa fa-medium" style= "color:black"></i></a>
+                 <a href="bit.ly/sagemaker_FoodOutBreak"> <i class="fa fa-amazon" style= "color:black"></i></a>
 						  </p>
 	   				</div>
 	   				<div class="timeline-content">
@@ -450,6 +446,43 @@
 
 	</section> <!-- /work -->
 
+  <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio" class="white-section">
+
+     <div class="row resume-timeline">
+
+       <div class="col-twelve resume-header">
+
+         <h2>Portfolio</h2>
+
+           </div> <!-- /resume-header -->
+
+           <div class="col-twelve">
+
+             <div class="timeline-wrap">
+
+                 <div class="timeline-block">
+
+                     <div class="timeline-ico">
+                         <i class="fa fa-area-chart"></i>
+                     </div>
+
+                     <div class="timeline-header">
+                         <h3>Prfolio 1 </h3><h4>Location | Date </h4>
+                         <p><i>introduction</i></p>
+                     </div>
+
+                     <div class="timeline-content">
+                         <p>- picture here</p>
+                     </div>
+
+                 </div> <!-- /timeline-block -->
+               </div>
+          </div>
+
+
+   </section> <!-- /portfolio -->
 
    <!-- services Section
    ================================================== -->
@@ -462,7 +495,6 @@
 
    			<h5>MORE</h5>
 
-
    		</div>
    	</div> <!-- /section-intro -->
 
@@ -472,7 +504,7 @@
 
    			<div class="service">
 
-			   	<span class="icon"><i class="icon-window"></i></span>
+			   	<span class="icon"><i class="fa fa-database"></i></span>
 
 	            <div class="service-content">
 
@@ -485,33 +517,33 @@
 
 			   </div> <!-- /service --><div class="service">
 
-					<span class="icon"><i class="icon-earth"></i></span>
+					<span class="icon"><i class="fa fa-globe"></i></span>
 
 	            <div class="service-content">
 
 	            	<h3>LANGUAGES</h3>
 
 		            <ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent100"><span>100%</span></div>
-				   	<strong class="desc">Chinese - Taiwan</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong class="desc">English</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent60"><span>60%</span></div>
-				   	<strong class="desc">German</strong>
-				   </li>
-				   </ul>
+        				   <li>
+            				   	<div class="progress percent100"><span>100%</span></div>
+            				   	<strong class="desc">Chinese - Taiwan</strong>
+        				   </li>
+        				   <li>
+            				   	<div class="progress percent85"><span>85%</span></div>
+            				   	<strong class="desc">English</strong>
+        				   </li>
+        				   <li>
+            				   	<div class="progress percent60"><span>60%</span></div>
+            				   	<strong class="desc">German</strong>
+        				   </li>
+    				   </ul>
 
 	            </div>
 	            </div> <!-- /services-list -->
 
 	      	<div class="service">
 
-	      		<span class="icon"><i class="icon-chat"></i></span>
+	      		<span class="icon"><i class="fa fa-users"></i></span>
 
 	            <div class="service-content">
 
@@ -527,7 +559,7 @@
 
 		<div class="service">
 
-			 <span class="icon"><i class="icon-window"></i></span>
+			 <span class="icon"><i class="fa fa-binoculars"></i></span>
 
 	            <div class="service-content">
 
@@ -631,7 +663,7 @@
    			<h5>Call Me At</h5>
 
    			<p>Phone:
-			   	+1 000 000 0000<br>
+			   	+1 202 868 0865<br>
 
 			   </p>
 

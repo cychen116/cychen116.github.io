@@ -1100,7 +1100,7 @@ header {
 	height: auto;
 	max-height: 100px;
 	z-index: 20;
-	background:#000000;
+	background:rgba(0,0,0,0.85);
 }
 
 }
@@ -1136,6 +1136,8 @@ header .nav{
 	width:100%;
 	height:auto;
 	top: 0;
+	display: inline;
+	justify-content: center;
 
 }
 
@@ -1149,7 +1151,6 @@ header .nav a {
 }
 
 header .nav ul {
-  background: #000000;
   list-style: none;
   margin: 0;
 	float:center;
@@ -1159,10 +1160,10 @@ header .nav ul {
 	justify-content: center;
 }
 header .nav li {
-  background: #000000;
   display: block;
   float: left;
-  padding: 10px;
+  padding: auto;
+	max-padding:10px;
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
@@ -1175,19 +1176,17 @@ header .nav li {
 
 header .nav li a {
   color: #ffffff;
-	font-size: 12px;
+	font-size: 15px;
   border: none;
   padding: 2px;
   text-decoration: none;
   display: block;
-  font-size: 15px;
   font-family:"poppins-semibold", sans-serif;
 	text-align: center;
 	z-index: 15;
 }
 
 header .nav li a:hover{
-  background: #000000;
 	color: #FF0077;
 }
 
@@ -1196,9 +1195,8 @@ header .nav li:focus-within a {
 }
 
 header .nav ul li ul {
-  background: #000000;
+  background:rgba(0,0,0,0.85);
   visibility: hidden;
-  opacity: 80;
   min-width: 100%;
   position: absolute;
   transition: all 0.5s ease;
@@ -1470,28 +1468,28 @@ header .header-social li a {
 
 
 @media only screen and (max-width:1024px) {
-	header .nav {
-		left: 0px;
-		font-size:15px;
+	header .nav li {
+		padding: 15px
+		font-size:1.8rem;;
 
 	}
 }
 @media only screen and (max-width:768px) {
-	header .nav {
-		left: 0px;
-		font-size:10px;
+	header .nav ul li{
+		padding: 10px
+		font-size:1.5rem;;
 	}
 }
 @media only screen and (max-width:600px) {
-	header .nav {
-		left: 0px;
-		font-size:8px;
+	header .nav ul li{
+		padding: 3px
+		font-size:0.9rem;;
 	}
 }
 @media only screen and (max-width:400px) {
-	header .nav{
-		left: 0px;
-		font-size:7px;
+	header .nav ul li{
+		padding: 1px
+		ont-size:0.7rem;
 	}
 }
 
@@ -1754,14 +1752,14 @@ header .header-social li a {
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 15rem;
+	padding-left: 25rem;
 	color: black;
 }
 
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	max-width: 960px;
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
@@ -1824,6 +1822,7 @@ header .header-social li a {
 		width: 7.8rem;
 	}
 	.intro-info .lead {
+		display: block;
 		padding-left: 11rem;
 	}
 	.about-content h3 {
@@ -1831,6 +1830,9 @@ header .header-social li a {
 	}
 	.about-content .info-list, .about-content .skill-bars {
 		margin-bottom: 4.2rem;
+	}
+	.about-content .info-list{
+		text-align: center;
 	}
 	.button-section .button {
 		width: 100%;
@@ -1846,14 +1848,48 @@ header .header-social li a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
-		float: center;
-		display: inline-block;
+		clear: both;
+		margin: 0;
+		top: 30%;
+		left: 42%;
+		height: 10rem;
+		width: 10rem;
+		position: relative;
+		vertical-align: middle;
+
 	}
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+		display: block;
+		vertical-align: middle;
+		padding-top: 15rem;
+	}
+}
+
+
+@media only screen and (max-width:400px) {
+	.intro-info {
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.intro-info img {
+		clear: both;
+		margin: 0;
+		top: 25%;
+		left: 36%;
+		height: 10rem;
+		width: 10rem;
+		position: relative;
+		vertical-align: middle;
+
+	}
+	.intro-info .lead {
+		padding-left: 0;
+		text-align: center;
+		display: block;
+		vertical-align: middle;
+		padding-top: 15rem;
 	}
 }
 

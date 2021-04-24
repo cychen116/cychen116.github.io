@@ -1724,10 +1724,6 @@ header .header-social li a {
 	}
 }
 
-@media only screen and (max-width:400px) {
-	#intro {
-		min-height: 400px;
-	}
 
 
 /**
